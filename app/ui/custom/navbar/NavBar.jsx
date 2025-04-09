@@ -12,6 +12,7 @@ export default function NavBar() {
     { name: "LeaderBoard", link: "/leaderboard" },
     { name: "Objectifs", link: "/objectifs" },
     { name: "Profile", link: "/profile" },
+    { name: "Store", link: "/store" },
   ];
   const onClickMenu = () => {
     setMenuOpen((prev) => !prev);
@@ -62,6 +63,7 @@ export default function NavBar() {
             {menuItems.map((item) => {
               return (
                 <li
+                  className="border-b-1 w-full"
                   onClick={() => {
                     setMenuOpen(false);
                   }}
