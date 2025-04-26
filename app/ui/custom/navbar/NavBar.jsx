@@ -59,11 +59,11 @@ export default function NavBar() {
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div className="fixed top-1/3 left-1/2 -translate-x-1/2 max-w-96 w-9/12 bg-neutral-600 p-5 rounded-lg z-40">
-          <ul className="text-white font-semibold space-y-2 w-full flex flex-col gap-2-è items-center">
+          <ul className="text-white font-semibold space-y-4 w-full flex flex-col gap-2-è items-center">
             {menuItems.map((item) => {
               return (
                 <li
-                  className="border-b-1 w-full"
+                  className="border-b-1 border-cyan-400 w-full"
                   onClick={() => {
                     setMenuOpen(false);
                   }}

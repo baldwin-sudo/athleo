@@ -18,7 +18,7 @@ export default function Page() {
     <div className=" flex flex-col lg:flex-row px-5 gap-5">
       {/* card 1 */}
       <div className="flex flex-col gap-5">
-        <div className=" w-full max-w-96 box-border  rounded-xl bg-neutral-600">
+        <div className=" w-full mx-auto max-w-96 box-border  rounded-xl bg-neutral-600">
           <div className=" flex flex-col items-center justify-center px-10 py-10">
             <Image
               src={profileImg}
